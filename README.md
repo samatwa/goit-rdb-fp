@@ -71,7 +71,8 @@ FROM normalized_cases;
 
 5)
 
-5.1)
+5.1
+
 DELIMITER //
 
 CREATE FUNCTION CalculateDateDiff(Year INT)
@@ -89,7 +90,8 @@ DELIMITER ;
 SELECT DISTINCT Year, CalculateDateDiff(Year) as years_diff
 FROM normalized_cases;
 
-5.2)
+5.2
+
 DELIMITER //
 
 CREATE FUNCTION CalculatePeriodCases(cases_per_year TEXT, period_divider INT)
