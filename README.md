@@ -69,7 +69,6 @@ SELECT
     TIMESTAMPDIFF(YEAR, MAKEDATE(Year, 1), CURDATE()) AS years_difference
 FROM normalized_cases;
 
-5)
 5.1
 
 DELIMITER //
